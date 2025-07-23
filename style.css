@@ -10,6 +10,7 @@
     max-width:1140px;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 p{
@@ -73,7 +74,26 @@ nav ul li a{
     padding: 15px;
     border: none;
 }
+/* Plant Lover Section Start  */
+.plant-lover-section{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
+}
 
+main ul li::marker{
+       color:rgba(0, 0, 0, 0.5)
+    }
+
+
+#badge{
+    width: 286px;
+    height: 286px;
+    position: relative;
+    right: -350px;
+    bottom: -150px;
+}
 /* Responsive Start */
  @media screen and (max-width:400px){
     body{
@@ -117,6 +137,22 @@ nav ul li a{
         width: 100%;
         margin: 0 auto;
     }
+    .plant-lover-section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+       
+    }
+    .plant-lover-section img{
+       
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    #badge{
+        display: none;
+    }
+
     
 
     
